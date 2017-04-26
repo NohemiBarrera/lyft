@@ -1,0 +1,36 @@
+video.video {
+	width: 60%;
+}
+.logo {
+	width: 10%;
+}
+a{
+	text-decoration: none;
+	text-align: right;
+	position: absolute;
+}
+
+ul {
+	list-style: none;
+}
+.phone {
+	width: 40%;
+}
+.morado {
+	background-color: #74278e;
+}
+.description-purple {
+	width: 60%;
+}
+.img-video-1 {
+	width: 65%;
+}
+nav {
+	width: 100%;
+	position: relative;
+}
+.enlaces {
+	position: relative;
+    left: 70%;
+    display: inline-block;
+}
