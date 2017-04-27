@@ -3,11 +3,13 @@ body {
 	margin: 0;
 	font-family: Helvetica,Arial,Lucida,sans-serif;
 }
-
+.container {
+	width: 100%;
+}
 video.video {
 	width: 60%;
 	float: left;
-	margin-top: -21px;
+	margin-top: 0px;
 }
 .logo {
 	width: 10%;
@@ -27,7 +29,7 @@ ul {
 }
 .morado {
 	background-color: #650e82;
-	margin-top: 70px;
+	margin-top: 0px;
 }
 .description-purple {
 	width: 60%;
@@ -118,6 +120,7 @@ h3 {
 }
 h1 {
 	color: #352384;
+	margin: 0;
 }
 .sign {
 	color: #352384;
@@ -127,6 +130,13 @@ h1 {
 	width: 7%;
 	background-color: transparent;
 	font-size: 15px;
+}
+#formularioMostrado {
+	padding-left: 310px;
+}
+
+#navegador {
+	position: fixed;
 }
 /*Aquí van los estilos del footer
 ¡¡¡A TOMAR EN CUENTA!!!
