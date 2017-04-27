@@ -2,7 +2,7 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: Helvetica,Arial,Lucida,sans-serif;
-}
+}	
 .container {
 	width: 100%;
 }
@@ -107,12 +107,15 @@ nav {
 }
 #form {
 	color: #333447;
+	text-decoration: underline;
+	font-size: 17px;
+	text-align: justify;
 }
 .text-small{
 	font-size: small;
 	color: #7c70af;
 }
-.pharagraph-description {
+.pharagraph-description h3 {
 	font-size: 1.15em;
 }
 h3 {
@@ -130,14 +133,19 @@ h1 {
 	width: 7%;
 	background-color: transparent;
 	font-size: 15px;
+	border: 1px solid whitesmoke;
 }
 #formularioMostrado {
 	padding-left: 310px;
 }
-
-#navegador {
-	position: fixed;
+header {
+	width: 100%;
 }
+/*#navegador {
+	position: fixed;
+	background-color: transparent;
+}*/
+
 /*Aquí van los estilos del footer
 ¡¡¡A TOMAR EN CUENTA!!!
 UTILCEN LAS CLASES QUE ASIGNARON PARA EL FOOTER, VEAN QUE NO SE REPITAN CON LAS YA EXISTENTES.
