@@ -1,5 +1,13 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica,Arial,Lucida,sans-serif;
+}
+
 video.video {
 	width: 60%;
+	float: left;
+	margin-top: -21px;
 }
 .logo {
 	width: 10%;
@@ -8,6 +16,7 @@ a{
 	text-decoration: none;
 	text-align: right;
 	position: absolute;
+	font-size: 20px;
 }
 
 ul {
@@ -17,20 +26,123 @@ ul {
 	width: 40%;
 }
 .morado {
-	background-color: #74278e;
+	background-color: #650e82;
+	margin-top: 70px;
 }
 .description-purple {
 	width: 60%;
+	float: left;
+	height: 50%;
+	color: white;
 }
 .img-video-1 {
-	width: 65%;
+	width: 60%;
+
 }
 nav {
 	width: 100%;
 	position: relative;
+	background-color: #261f3c;
 }
 .enlaces {
 	position: relative;
     left: 70%;
     display: inline-block;
+    padding: 20px;
+    color: #7c70af;
 }
+#formulario {
+	text-align: left;
+	margin-left: 500px;
+}
+
+.description-top {
+	float: left;
+	width: 40%;
+	color: #333447;
+
+}
+.img-video-2 {
+	width: 60%;
+
+}
+.description-middle {
+	width: 40%;
+	float: right;
+	color: #333447;
+
+}
+.middle {
+	margin-top: -4px;
+}
+.description-bottom {
+	width: 40%;
+	float: left;
+	height: 50%;
+	color: #333447;
+
+}
+.img-video-3 {
+	width: 60%
+}
+.bottom {
+	margin-top: -4px;
+}
+
+.btn-become {
+	background-color: #ff00bf;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	border: none;
+	border-radius: .5rem;
+	padding: 5px;
+	color: white;
+}
+#forms {
+	color: #ff00bf;
+	font-size: 12px;
+}
+#form {
+	color: #333447;
+}
+.text-small{
+	font-size: small;
+	color: #7c70af;
+}
+.pharagraph-description {
+	font-size: 1.15em;
+}
+h3 {
+	font-size: 1.5em;
+}
+h1 {
+	color: #352384;
+}
+.sign {
+	color: #352384;
+}
+#boton-log {
+	border-radius: .5rem;
+	width: 7%;
+	background-color: transparent;
+	font-size: 15px;
+}
+/*Aquí van los estilos del footer
+¡¡¡A TOMAR EN CUENTA!!!
+UTILCEN LAS CLASES QUE ASIGNARON PARA EL FOOTER, VEAN QUE NO SE REPITAN CON LAS YA EXISTENTES.
+
+Estas cosas les van a ayudar, sólo coloquenlas donde se debe, las amo.
+
+background-color: #333447;
+color: white;
+Rosa lyft: #ff00bf  <= (usar para hover)
+
+
+DRIVE - RIDE - LOG IN - PARTNER - LEARN:
+font-size: 20px;
+
+Elementos <li>
+font-size: 0.85rem;
+
+*/
